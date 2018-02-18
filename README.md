@@ -7,22 +7,22 @@ Files in /fi/uta/csjola/oope/lista and /apulaiset directories were given by the 
 
 Commands:
 
-* md <name>
+* md \<name>
   * Creates a directory with the given name
-* mf <name> <size>
+* mf \<name> \<size>
   * Creates a file with the given name and the given (imaginary) size
-* cd <name>
+* cd \<name>
   * Changes to directory with given name
-* ls <name>
+* ls \<name>
   * Lists contents of the current directory, if no name is given
   * If name is given, it prints out information of that directory or file
 * find
   * Lists content of current directory and its sub-directories recursively
-* mv <oldName> <newName>
+* mv \<oldName> \<newName>
   * Renames a directory or file with oldName to newName
-* cp <fileName> <newName>
+* cp \<fileName> \<newName>
   * Creates a copy of a directory or file with fileName, and sets copy's name as newName
-* rm <name>
+* rm \<name>
   * Deletes a directory or file with the given name
 * exit
   * Terminates the program
